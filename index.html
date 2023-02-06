@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230206184858">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__decor">
+					<button type="button" class="header__icon icon-menu"><span></span></button>
+				</div>
+				<a href="" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu menu">
+					<div class="menu__inner">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Hauptseite</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Hervorgehoben</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Service</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Preisgestaltung</a></li>
+							</ul>
+						</nav>
+						<div class="menu__actions">
+							<div class="menu__lang lang">
+								<div class="lang__select">
+									<select name="form[lang]" data-class-modif="lang">
+										<option value="1" selected>Ger</option>
+										<option value="2">Ukr</option>
+										<option value="3">Eng</option>
+									</select>
+								</div>
+								<svg class="lang__planet" width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2ZM0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11Z" fill="#333333" />
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 10.9477 0.447715 10.5 1 10.5H21C21.5523 10.5 22 10.9477 22 11.5C22 12.0523 21.5523 12.5 21 12.5H1C0.447715 12.5 0 12.0523 0 11.5Z" fill="#333333" />
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M8.00023 11.5001C8.06877 14.5749 9.12625 17.5353 11 19.9493C12.8737 17.5353 13.9312 14.5749 13.9998 11.5001C13.9312 8.42527 12.8737 5.46495 11 3.0509C9.12625 5.46495 8.06877 8.42527 8.00023 11.5001ZM11 1.50011L10.2617 0.825684C7.59689 3.74301 6.08251 7.52896 6.00022 11.4793C5.99993 11.4932 5.99993 11.5071 6.00022 11.5209C6.08251 15.4713 7.59689 19.2572 10.2617 22.1745C10.4511 22.3819 10.7191 22.5001 11 22.5001C11.2809 22.5001 11.5489 22.3819 11.7383 22.1745C14.4031 19.2572 15.9175 15.4713 15.9998 11.5209C16.0001 11.5071 16.0001 11.4932 15.9998 11.4793C15.9175 7.52896 14.4031 3.74301 11.7383 0.825684L11 1.50011Z" fill="#333333" />
+								</svg>
+								<svg class="lang__arrow" width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2.99993 4.5L5.59801 0H0.401855L2.99993 4.5Z" fill="#333333" />
+								</svg>
+							</div>
+							<button type="button" class="menu__button">Anmeldung</button>
+							<div class="menu__info info-footer">
+								<a href="#" class="info-footer__logo">
+									<img src="img/logo.svg" alt="logo">
+								</a>
+								<div class="info-footer__text">
+									<p>
+										CEX.io ist der beste Ort, um etwas über Krypto zu lernen.
+									</p>
+								</div>
+								<div class="info-footer__socials">
+									<a href="#" class="info-footer__item">
+										<svg class="info-footer__facebook" width="13" height="24" viewBox="0 0 13 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M9.99726 3.98524H12.1883V0.169244C11.8103 0.117244 10.5103 0.000244141 8.99626 0.000244141C5.83726 0.000244141 3.67326 1.98724 3.67326 5.63924V9.00024H0.187256V13.2662H3.67326V24.0002H7.94726V13.2672H11.2923L11.8233 9.00124H7.94626V6.06224C7.94726 4.82924 8.27926 3.98524 9.99726 3.98524Z" fill="#269E96" />
+										</svg>
+									</a>
+									<a href="#" class="info-footer__item">
+										<svg class="info-footer__twitter" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7.81926 19.0107C16.3103 19.0107 20.9536 11.9762 20.9536 5.87637C20.9536 5.67658 20.9495 5.47761 20.9406 5.27975C21.8418 4.62808 22.6252 3.81488 23.2433 2.88926C22.4162 3.25706 21.5259 3.50432 20.5923 3.61619C21.5453 3.04447 22.2771 2.14046 22.6221 1.06279C21.7302 1.59158 20.7424 1.97575 19.6909 2.18325C18.8485 1.28598 17.6491 0.724854 16.3211 0.724854C13.772 0.724854 11.7046 2.79212 11.7046 5.34043C11.7046 5.70286 11.7452 6.05511 11.8243 6.39305C7.98768 6.2 4.58544 4.36321 2.30889 1.56998C1.91261 2.25205 1.68392 3.04461 1.68392 3.89029C1.68392 5.49165 2.49891 6.90574 3.73811 7.7327C2.98078 7.70944 2.2694 7.50153 1.64746 7.15548C1.64677 7.17488 1.64677 7.19373 1.64677 7.21437C1.64677 9.45005 3.23795 11.3167 5.35048 11.7397C4.96246 11.8452 4.5542 11.902 4.13316 11.902C3.83622 11.902 3.54672 11.8729 3.26547 11.8188C3.85314 13.653 5.55743 14.9877 7.57791 15.0251C5.99788 16.2635 4.00753 17.0011 1.84436 17.0011C1.47229 17.0011 1.1045 16.9798 0.743164 16.9372C2.78621 18.2467 5.2122 19.0109 7.8194 19.0109" fill="#269E96" />
+										</svg>
+									</a>
+									<a href="#" class="info-footer__item">
+										<svg class="info-footer__instagram" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_4725_402)">
+												<path d="M16.5 0H7.5C3.3585 0 0 3.3585 0 7.5V16.5C0 20.6415 3.3585 24 7.5 24H16.5C20.6415 24 24 20.6415 24 16.5V7.5C24 3.3585 20.6415 0 16.5 0ZM21.75 16.5C21.75 19.395 19.395 21.75 16.5 21.75H7.5C4.605 21.75 2.25 19.395 2.25 16.5V7.5C2.25 4.605 4.605 2.25 7.5 2.25H16.5C19.395 2.25 21.75 4.605 21.75 7.5V16.5Z" fill="#269E96" />
+												<path d="M11.9996 6.00024C8.68613 6.00024 5.99963 8.68674 5.99963 12.0002C5.99963 15.3137 8.68613 18.0002 11.9996 18.0002C15.3131 18.0002 17.9996 15.3137 17.9996 12.0002C17.9996 8.68674 15.3131 6.00024 11.9996 6.00024ZM11.9996 15.7502C9.93263 15.7502 8.24963 14.0672 8.24963 12.0002C8.24963 9.93174 9.93263 8.25024 11.9996 8.25024C14.0666 8.25024 15.7496 9.93174 15.7496 12.0002C15.7496 14.0672 14.0666 15.7502 11.9996 15.7502Z" fill="#269E96" />
+												<path d="M18.6466 6.32542C19.0746 6.21673 19.3334 5.78169 19.2247 5.35373C19.1161 4.92577 18.681 4.66694 18.2531 4.77562C17.8251 4.88431 17.5663 5.31935 17.6749 5.74731C17.7836 6.17527 18.2187 6.4341 18.6466 6.32542Z" fill="#269E96" />
+											</g>
+											<defs>
+												<clipPath id="clip0_4725_402">
+													<rect width="24" height="24" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__content">
+						<h1 class="main-block__title title">Machen Sie das <span>Beste</span> aus den Marktbewegungen</h1>
+						<div class="main-block__text">
+							<p>
+								Nutzen Sie eine breite Palette von Anlagemöglichkeiten, benutzerfreundlichen Handelsinstrumenten
+								und Markteinblicken, die Ihnen bei der Umsetzung Ihrer Handelsstrategien helfen. Verdienen Sie
+								Zinsen auf der Grundlage Ihres Kontoplans, ohne Sperrfrist.
+							</p>
+						</div>
+						<button type="button" class="main-block__button button">Loslegen</button>
+					</div>
+					<div class="main-block__media">
+						<div class="main-block__picture">
+							<img src="img/main-block/image.svg" alt="image">
+						</div>
+						<a href="#" class="main-block__coin-card coin-card coin-card_btc">
+							<div class="coin-card__body">
+								<div class="coin-card__label">
+									<div class="coin-card__name">Bitcoin</div>
+									<div class="coin-card__icon">
+										<img src="img/main-block/bitcoin.svg" alt="bitcoin icon">
+									</div>
+								</div>
+								<div class="coin-card__price">$53.863,9</div>
+							</div>
+							<div class="coin-card__grafic">
+								<img src="img/main-block/grafic.svg" alt="grafic icon">
+							</div>
+							<div class="coin-card__changes coin-card__changes_decrease">-2,5%</div>
+						</a>
+						<a href="#" class="main-block__coin-card coin-card coin-card_bnb">
+							<div class="coin-card__body">
+								<div class="coin-card__label">
+									<div class="coin-card__name">Binance Coin</div>
+									<div class="coin-card__icon">
+										<img src="img/main-block/binance-coin.png" alt="binance-coin icon">
+									</div>
+								</div>
+								<div class="coin-card__price">$282,63</div>
+							</div>
+						</a>
+						<a href="#" class="main-block__coin-card coin-card coin-card_col coin-card_eth">
+							<div class="coin-card__col">
+								<div class="coin-card__body">
+									<div class="coin-card__label">
+										<div class="coin-card__name">Ethereum</div>
+										<div class="coin-card__icon">
+											<img src="img/main-block/ethereum.png" alt="ethereum icon">
+										</div>
+									</div>
+									<div class="coin-card__price">$1.812,56</div>
+								</div>
+								<div class="coin-card__changes coin-card__changes_increase">+0,8%</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__partners partners">
+				<div class="partners__container">
+					<h2 class="partners__title title title_fz-32"><span>Vorgestellt</span> auf</h2>
+					<div class="partners__slider swiper">
+						<div class="partners__wrapper swiper-wrapper">
+							<div class="partners__slide swiper-slide">
+								<div class="partners__image">
+									<img src="img/partners/coindesk.png" alt="coindesk">
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__image">
+									<img src="img/partners/cointelegraph.png" alt="cointelegraph">
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__image">
+									<img src="img/partners/reuters.png" alt="reuters">
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__image">
+									<img src="img/partners/cointracker.png" alt="cointracker">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container">
+					<h2 class="advantages__title title title_fz-32">Vertrauenswürdige <span>Kryptoplattform</span> für
+						Verkauf, Kauf und Handel</h2>
+					<div class="advantages__text">
+						<p>
+							CEX.io ist eine der besten Plattformen für den Austausch von Kryptowährungen. Es hat die
+							schnellsten 0 Transaktionsgebühren, Datensicherheit, Unterstützung beim Kauf von Krypto mit Kredit-
+							oder Debitkarte und andere Vorteile.
+						</p>
+					</div>
+					<div class="advantages__items">
+						<article class="advantages__item">
+							<a href="#" class="item-advantages">
+								<div class="item-advantages__icon">
+									<img class="item-advantages__decor" src="img/advantages/decor.png" alt="Decor">
+									<img class="item-advantages__main-image" src="img/advantages/01.svg" alt="Icon">
+								</div>
+								<h4 class="item-advantages__title">Selbstverwaltetes Handeln & Investieren</h4>
+								<div class="item-advantages__text">
+									<p>
+										Alles, was Sie für die Verwaltung Ihrer eigenen Anlagen
+										benötigen
+									</p>
+								</div>
+							</a>
+						</article>
+						<article class="advantages__item">
+							<a href="#" class="item-advantages">
+								<div class="item-advantages__icon">
+									<img class="item-advantages__decor" src="img/advantages/decor.png" alt="Decor">
+									<img class="item-advantages__main-image" src="img/advantages/02.svg" alt="Icon">
+								</div>
+								<h4 class="item-advantages__title">Vermögensverwaltung</h4>
+								<div class="item-advantages__text">
+									<p>Kostengünstige, kompetente Verwaltung Ihrer Fonds, ohne
+										Bindung</p>
+								</div>
+							</a>
+						</article>
+						<article class="advantages__item">
+							<a href="#" class="item-advantages">
+								<div class="item-advantages__icon">
+									<img class="item-advantages__decor" src="img/advantages/decor.png" alt="Decor">
+									<img class="item-advantages__main-image" src="img/advantages/03.svg" alt="Icon">
+								</div>
+								<h4 class="item-advantages__title">Intuitive <br> Handelswerkzeuge</h4>
+								<div class="item-advantages__text">
+									<p>Anlageplattformen für unterschiedliche Bedürfnisse und
+										Erfahrungsstufen</p>
+								</div>
+							</a>
+						</article>
+						<article class="advantages__item">
+							<a href="#" class="item-advantages">
+								<div class="item-advantages__icon">
+									<img class="item-advantages__decor" src="img/advantages/decor.png" alt="Decor">
+									<img class="item-advantages__main-image" src="img/advantages/04.svg" alt="Icon">
+								</div>
+								<h4 class="item-advantages__title">Expertenwissen</h4>
+								<div class="item-advantages__text">
+									<p>Marktforschung auf der Plattform, Lernressourcen und mehr
+									</p>
+								</div>
+							</a>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__trade trade">
+				<div class="trade__container">
+					<div class="trade__grafs">
+						<a href="#" class="trade__item coin-card coin-card_col">
+							<div class="coin-card__col">
+								<div class="coin-card__body">
+									<div class="coin-card__label">
+										<div class="coin-card__name">Bitcoin</div>
+										<div class="coin-card__icon">
+											<img src="img/trade/bitcoin.svg" alt="bitcoin icon">
+										</div>
+									</div>
+									<div class="coin-card__price">$53.863,9</div>
+								</div>
+								<div class="coin-card__changes coin-card__changes_increase">+2,5%</div>
+							</div>
+							<div class="coin-card__grafic">
+								<img class="coin-card__lines" src="img/trade/lines.svg" alt="lines">
+								<img src="img/trade/bitcoingraf.svg" alt="grafic icon">
+							</div>
+						</a>
+						<a href="#" class="trade__item coin-card coin-card_col">
+							<div class="coin-card__col">
+								<div class="coin-card__body">
+									<div class="coin-card__label">
+										<div class="coin-card__name">Dogecoin</div>
+										<div class="coin-card__icon">
+											<img src="img/trade/dogecoin.png" alt="ethereum icon">
+										</div>
+									</div>
+									<div class="coin-card__price">$0,056</div>
+								</div>
+								<div class="coin-card__changes coin-card__changes_decrease">-0,3%</div>
+							</div>
+							<div class="coin-card__grafic">
+								<img class="coin-card__lines" src="img/trade/lines.svg" alt="lines">
+								<img src="img/trade/dogegraf.svg" alt="grafic icon">
+							</div>
+						</a>
+						<a href="#" class="trade__item coin-card coin-card_col">
+							<div class="coin-card__col">
+								<div class="coin-card__body">
+									<div class="coin-card__label">
+										<div class="coin-card__name">Ethereum</div>
+										<div class="coin-card__icon">
+											<img src="img/main-block/ethereum.png" alt="ethereum icon">
+										</div>
+									</div>
+									<div class="coin-card__price">$1.812,56</div>
+								</div>
+								<div class="coin-card__changes coin-card__changes_increase">+0,8%</div>
+							</div>
+							<div class="coin-card__grafic">
+								<img class="coin-card__lines" src="img/trade/lines.svg" alt="lines">
+								<img src="img/trade/bitcoingraf.svg" alt="grafic icon">
+							</div>
+						</a>
+						<a href="#" class="trade__item coin-card coin-card_col">
+							<div class="coin-card__col">
+								<div class="coin-card__body">
+									<div class="coin-card__label">
+										<div class="coin-card__name">Binance Coin</div>
+										<div class="coin-card__icon">
+											<img src="img/trade/dogecoin.png" alt="ethereum icon">
+										</div>
+									</div>
+									<div class="coin-card__price">$282,36</div>
+								</div>
+								<div class="coin-card__changes coin-card__changes_increase">+0,8%</div>
+							</div>
+							<div class="coin-card__grafic">
+								<img class="coin-card__lines" src="img/trade/lines.svg" alt="lines">
+								<img src="img/trade/bnbgraf.svg" alt="grafic icon">
+							</div>
+						</a>
+					</div>
+					<div class="trade__content">
+						<h2 class="trade__title title title_fz-32"><span>Kaufen</span> und halten oder mit Hebelwirkung
+							handeln</h2>
+						<div class="trade__text">
+							<p>
+								Wählen Sie aus einer breiten Palette von Produkten für den Cash- und Margin-Handel auf den
+								globalen Märkten. Was auch immer Sie handeln, Sie erhalten das, was Sie brauchen, um mit
+								fortschrittlichen Tools, Handelsinspiration und Marktforschung sichere Entscheidungen zu
+								treffen.
+							</p>
+						</div>
+						<button type="button" class="trade__button button">Mehr Info</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__expert expert">
+				<div class="expert__container">
+					<div class="expert__content">
+						<h2 class="expert__title title title_fz-32">Lassen Sie die <span>Experten</span> für Sie handeln</h2>
+						<div class="expert__text">
+							<p>
+								Lassen Sie Ihre Ersparnisse mit unserem neuen Service auf Ihre Lebensziele abstimmen oder
+								investieren Sie in exklusive verwaltete Portfolios von weltweit führenden Vermögensverwaltern.
+								Sie können auch einen regelmäßigen Sparplan für bestimmte verwaltete Portfolios ab SGD 100 pro
+								Monat einrichten.
+							</p>
+						</div>
+						<button type="button" class="expert__button button">Mehr Info</button>
+					</div>
+					<div class="expert__picture">
+						<div class="expert__image">
+							<img src="img/expert/image.svg" alt="image">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__research research">
+				<div class="research__container">
+					<div class="research__image">
+						<img src="img/research/picture.svg" alt="image">
+					</div>
+					<div class="research__content">
+						<h2 class="research__title title title_fz-32">Schärfen Sie Ihre Strategie mit kuratierter
+							<span>Marktforschung</span>
+						</h2>
+						<div class="research__text">
+							<p>
+								Möchten Sie schnell den Puls eines Marktes fühlen oder ESG-fokussierte Investitionen
+								recherchieren? Von Live-Markt-Updates bis hin zu detaillierten Makro-Analysen - Ihr Saxo-Konto
+								bietet Ihnen Zugang zu aussagekräftigen Erkenntnissen, direkt auf Ihrer Handelsplattform.
+							</p>
+						</div>
+						<button type="button" class="research__button button">Mehr Info</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__reviews reviews">
+				<div class="reviews__container">
+					<h2 class="reviews__title title title_fz-32">Was unsere <span>Million</span> Smart User sagt</h2>
+					<div class="reviews__caption">
+						<p>
+							Mehr als eine Million Benutzer vertrauen darauf, dass wir die Kryptowährungen in Bitcoin.de
+							verkaufen, kaufen und handeln
+						</p>
+					</div>
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide">
+								<a href="#" class="reviews__body">
+									<div class="reviews__user">
+										<div class="reviews__avatar">
+											<img src="img/reviews/avatar-01.png" alt="avatar">
+										</div>
+										<div class="reviews__name">Harry Potter</div>
+									</div>
+									<div class="reviews__text">
+										<p>
+											„Das ist wirklich etwas für Millennials. Nicht kompliziert, informativ, aber sauber.
+											Fluid ist auch ein Übergang. Der Investmentmanager tut viel. Jetzt nur noch Avrist,
+											Pinnacle, Simas, Majoris.“
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<a href="#" class="reviews__body">
+									<div class="reviews__user">
+										<div class="reviews__avatar">
+											<img src="img/reviews/avatar-02.png" alt="avatar">
+										</div>
+										<div class="reviews__name">Peter Parker</div>
+									</div>
+									<div class="reviews__text">
+										<p>
+											„Das ist wirklich etwas für Millennials. Nicht kompliziert, informativ, aber sauber.
+											Fluid ist auch ein Übergang. Der Investmentmanager tut viel. Jetzt nur noch Avrist,
+											Pinnacle, Simas, Majoris.“
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<a href="#" class="reviews__body">
+									<div class="reviews__user">
+										<div class="reviews__avatar">
+											<img src="img/reviews/avatar-03.png" alt="avatar">
+										</div>
+										<div class="reviews__name">Toney Stark</div>
+									</div>
+									<div class="reviews__text">
+										<p>
+											„Das ist wirklich etwas für Millennials. Nicht kompliziert, informativ, aber sauber.
+											Fluid ist auch ein Übergang. Der Investmentmanager tut viel. Jetzt nur noch Avrist,
+											Pinnacle, Simas, Majoris.“
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="reviews__button button">Mehr Info</button>
+				</div>
+			</section>
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__image">
+						<img src="img/subscribe/picture.svg" alt="image">
+					</div>
+					<div class="subscribe__content">
+						<h2 class="subscribe__title title title_fz-32"><span>Abonnieren</span> Sie uns</h2>
+						<div class="subscribe__text">
+							<p>
+								Lörem ipsum befyrade ortad. Geott suhet och av. Bibiling. Ement megan oda. Bask reatyp multill.
+							</p>
+						</div>
+						<form action="#" class="subscribe__form form">
+							<div class="form__row">
+								<input autocomplete="off" type="text" name="form[name]" data-error="Error" placeholder="Name" class="input">
+							</div>
+							<div class="form__row">
+								<input autocomplete="off" type="text" name="form[surname]" data-error="Error" placeholder="Surname" class="input">
+							</div>
+							<div class="form__row">
+								<input autocomplete="off" type="tel" name="form[phone]" data-error="Error" placeholder="Telefonnummer" class="input">
+							</div>
+							<div class="form__row">
+								<input data-required="email" autocomplete="off" type="text" name="form[email]" data-error="Error" placeholder="Email" class="input">
+							</div>
+							<button type="submit" class="form__button button">Weitermachen</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info info-footer">
+					<a href="#" class="info-footer__logo">
+						<img src="img/logo-footer.png" alt="logo">
+					</a>
+					<div class="info-footer__text">
+						<p>
+							CEX.io ist der beste Ort, um etwas über Krypto zu lernen.
+						</p>
+					</div>
+					<div class="info-footer__socials">
+						<a href="#" class="info-footer__item">
+							<svg class="info-footer__facebook" width="13" height="24" viewBox="0 0 13 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.99726 3.98524H12.1883V0.169244C11.8103 0.117244 10.5103 0.000244141 8.99626 0.000244141C5.83726 0.000244141 3.67326 1.98724 3.67326 5.63924V9.00024H0.187256V13.2662H3.67326V24.0002H7.94726V13.2672H11.2923L11.8233 9.00124H7.94626V6.06224C7.94726 4.82924 8.27926 3.98524 9.99726 3.98524Z" fill="#269E96" />
+							</svg>
+						</a>
+						<a href="#" class="info-footer__item">
+							<svg class="info-footer__twitter" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7.81926 19.0107C16.3103 19.0107 20.9536 11.9762 20.9536 5.87637C20.9536 5.67658 20.9495 5.47761 20.9406 5.27975C21.8418 4.62808 22.6252 3.81488 23.2433 2.88926C22.4162 3.25706 21.5259 3.50432 20.5923 3.61619C21.5453 3.04447 22.2771 2.14046 22.6221 1.06279C21.7302 1.59158 20.7424 1.97575 19.6909 2.18325C18.8485 1.28598 17.6491 0.724854 16.3211 0.724854C13.772 0.724854 11.7046 2.79212 11.7046 5.34043C11.7046 5.70286 11.7452 6.05511 11.8243 6.39305C7.98768 6.2 4.58544 4.36321 2.30889 1.56998C1.91261 2.25205 1.68392 3.04461 1.68392 3.89029C1.68392 5.49165 2.49891 6.90574 3.73811 7.7327C2.98078 7.70944 2.2694 7.50153 1.64746 7.15548C1.64677 7.17488 1.64677 7.19373 1.64677 7.21437C1.64677 9.45005 3.23795 11.3167 5.35048 11.7397C4.96246 11.8452 4.5542 11.902 4.13316 11.902C3.83622 11.902 3.54672 11.8729 3.26547 11.8188C3.85314 13.653 5.55743 14.9877 7.57791 15.0251C5.99788 16.2635 4.00753 17.0011 1.84436 17.0011C1.47229 17.0011 1.1045 16.9798 0.743164 16.9372C2.78621 18.2467 5.2122 19.0109 7.8194 19.0109" fill="#269E96" />
+							</svg>
+						</a>
+						<a href="#" class="info-footer__item">
+							<svg class="info-footer__instagram" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_4725_402)">
+									<path d="M16.5 0H7.5C3.3585 0 0 3.3585 0 7.5V16.5C0 20.6415 3.3585 24 7.5 24H16.5C20.6415 24 24 20.6415 24 16.5V7.5C24 3.3585 20.6415 0 16.5 0ZM21.75 16.5C21.75 19.395 19.395 21.75 16.5 21.75H7.5C4.605 21.75 2.25 19.395 2.25 16.5V7.5C2.25 4.605 4.605 2.25 7.5 2.25H16.5C19.395 2.25 21.75 4.605 21.75 7.5V16.5Z" fill="#269E96" />
+									<path d="M11.9996 6.00024C8.68613 6.00024 5.99963 8.68674 5.99963 12.0002C5.99963 15.3137 8.68613 18.0002 11.9996 18.0002C15.3131 18.0002 17.9996 15.3137 17.9996 12.0002C17.9996 8.68674 15.3131 6.00024 11.9996 6.00024ZM11.9996 15.7502C9.93263 15.7502 8.24963 14.0672 8.24963 12.0002C8.24963 9.93174 9.93263 8.25024 11.9996 8.25024C14.0666 8.25024 15.7496 9.93174 15.7496 12.0002C15.7496 14.0672 14.0666 15.7502 11.9996 15.7502Z" fill="#269E96" />
+									<path d="M18.6466 6.32542C19.0746 6.21673 19.3334 5.78169 19.2247 5.35373C19.1161 4.92577 18.681 4.66694 18.2531 4.77562C17.8251 4.88431 17.5663 5.31935 17.6749 5.74731C17.7836 6.17527 18.2187 6.4341 18.6466 6.32542Z" fill="#269E96" />
+								</g>
+								<defs>
+									<clipPath id="clip0_4725_402">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<div class="menu-footer__column">
+							<div class="menu-footer__title footer-title">Menu</div>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Hauptseite</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Gekennzeichnet</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Kreditkartenunterstützung</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-footer__column">
+							<div class="menu-footer__title footer-title">Dienstleistungen</div>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Kostenlose Verwaltung</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Datensicher</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Kreditkartenunterstützung</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Unterstützung für Debitkarten</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-footer__icolumn">
+							<div class="menu-footer__title footer-title">Weitere Informationen</div>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Terms & amp; Bedingungen</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Datenschutz-Bestimmungen</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-footer__column">
+							<div class="menu-footer__title footer-title">Die App holen</div>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">App Store</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="#" class="menu-footer__link">Google Play</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="footer__copy">
+					<span>Copyright</span>
+					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6.4638 8.90791C6.5078 9.16791 6.5878 9.39991 6.7038 9.60391C6.8198 9.80791 6.9798 9.97191 7.1758 10.0959C7.3638 10.2119 7.59981 10.2759 7.89181 10.2799C8.08381 10.2759 8.2598 10.2439 8.4118 10.1759C8.5758 10.1039 8.71181 10.0079 8.82781 9.88791C8.94381 9.76791 9.0318 9.62391 9.0958 9.46391C9.1598 9.30391 9.19581 9.13191 9.20381 8.95191H10.6358C10.6238 9.32791 10.5478 9.67191 10.4158 9.98391C10.2838 10.2959 10.0918 10.5639 9.85181 10.7919C9.61181 11.0199 9.3238 11.1919 8.9878 11.3159C8.6518 11.4399 8.27981 11.5039 7.87181 11.5039C7.3518 11.5039 6.8998 11.4159 6.5158 11.2359C6.1318 11.0559 5.8118 10.8119 5.5558 10.4999C5.2998 10.1879 5.1078 9.82791 4.9838 9.41591C4.8598 9.00391 4.7998 8.5679 4.7998 8.1079V7.8879C4.7998 7.4239 4.8638 6.9879 4.9878 6.5759C5.1118 6.1639 5.3038 5.8039 5.5598 5.4959C5.8158 5.1879 6.1358 4.9439 6.5238 4.7639C6.9118 4.5839 7.3638 4.4959 7.8838 4.4959C8.2598 4.4959 8.6118 4.5559 8.9398 4.6799C9.2678 4.8039 9.55581 4.9719 9.8038 5.1879C10.0518 5.4039 10.2518 5.6519 10.3958 5.9399C10.5398 6.2279 10.6238 6.5319 10.6358 6.8599H9.20381C9.19581 6.6919 9.1558 6.5399 9.0838 6.3959C9.0118 6.2519 8.9158 6.1319 8.7958 6.0319C8.6758 5.9319 8.53581 5.8519 8.37581 5.7959C8.22381 5.7439 8.06381 5.7159 7.89181 5.7159C7.60381 5.7239 7.36781 5.7839 7.1758 5.9039C6.9758 6.0319 6.8158 6.1959 6.6998 6.3999C6.5838 6.6039 6.5038 6.8359 6.4598 7.09991C6.4158 7.3639 6.3998 7.6199 6.3998 7.8879V8.1079C6.3998 8.3799 6.4198 8.64791 6.4638 8.90791Z" fill="#D1D1D1" />
+						<path d="M8 16C3.58 16 0 12.42 0 8C0 3.58 3.58 0 8 0C12.42 0 16 3.58 16 8C16 12.42 12.42 16 8 16ZM8 1.6C4.472 1.6 1.6 4.472 1.6 8C1.6 11.528 4.472 14.4 8 14.4C11.528 14.4 14.4 11.528 14.4 8C14.4 4.472 11.528 1.6 8 1.6Z" fill="#D1D1D1" />
+					</svg>
+					<span>2021 Crypto.qu. All Rights Reserved.</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230206184858"></script>
+</body>
+
+</html>
