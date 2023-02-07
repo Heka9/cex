@@ -3486,6 +3486,7 @@
                 disableOnInteraction: false
             },
             loop: true,
+            loopedSlides: 4,
             breakpoints: {
                 320: {
                     slidesPerView: 1.5,
